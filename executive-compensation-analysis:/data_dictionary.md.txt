@@ -1,0 +1,22 @@
+# Data Dictionary
+
+## Compensation Variables
+- **salary**: Base salary of CEO (USD millions, inflation adjusted).
+- **bonus**: Annual cash bonus linked to performance (USD millions).
+- **stock_options**: Value of stock options granted (USD millions).
+- **rsu**: Value of Restricted Stock Units granted (USD millions).
+- **equity**: Total equity-based pay (stock options + RSUs).
+
+## Performance Variables
+- **roe**: Return on Equity (%).
+- **eps**: Earnings per Share (USD).
+- **stock_return**: Annual stock return (%).
+- **revenue**: Firm revenue (USD millions).
+- **revenue_growth**: Year-on-year revenue growth (%).
+
+## Control Variables
+- **firm_size**: Firm size (log of total assets).
+- **leverage**: Debt-to-equity ratio.
+- **industry_dummy**: Industry classification dummies.
+- **ceo_tenure**: CEO tenure (years).
+- **year**: Time dummy (year fixed effects).
